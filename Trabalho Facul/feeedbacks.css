@@ -1,0 +1,79 @@
+/* Reset de estilos para garantir uma base consistente */
+body, h1, p, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reset de estilos para garantir uma base consistente */
+html, body {
+    height: 100%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Rubik:wght@300&display=swap');
+
+/* Estilo global para o corpo da página */
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #fdcd3b;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo para o cabeçalho (h1) */
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 5rem 0;
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+/* Estilo para os cartões de feedback */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Estilo para as imagens de usuário */
+.user {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Estilo para os nomes dos usuários */
+h3 {
+    color: black;
+}
+
+/* Estilo para as estrelas de avaliação */
+.stars {
+    margin-bottom: 10px;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+}
+
+/* Estilo para os parágrafos de feedback */
+p {
+    line-height: 1.4;
+}
+
+

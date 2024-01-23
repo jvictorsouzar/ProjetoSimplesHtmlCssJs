@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+body, h1, h2, h3, p, ol, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    background: -webkit-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    background: -moz-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    margin: 20px;
+}
+
+h2, h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    color: black;
+    margin: 20px 0;
+}
+
+ol, ul {
+    font-size: 16px;
+    color: black;
+    margin: 20px;
+}
+
+li {
+    font-family: 'Sarala', sans-serif;
+    margin: 10px 0;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+iframe {
+    border: 2px solid #333;
+}
+
+p:last-of-type {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin: 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
